@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Running & Fitness Coach</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Language toggle -->
+    <input type="radio" name="language" id="lang-ro" class="lang-toggle" checked />
+    <input type="radio" name="language" id="lang-en" class="lang-toggle" />
+
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="brand">
+          <span class="brand-mark">RC</span>
+          <div>
+            <p class="brand-title">Running Coach</p>
+            <p class="brand-subtitle">Smart. Strong. Sustainable.</p>
+          </div>
+        </div>
+        <div class="language-switcher">
+          <span class="switcher-label">
+            <span class="lang lang-ro">Limbă</span>
+            <span class="lang lang-en">Language</span>
+          </span>
+          <div class="switcher">
+            <label for="lang-ro">RO</label>
+            <label for="lang-en">EN</label>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Intro hero -->
+    <section class="intro-hero">
+      <div class="intro-hero-media">
+        <video
+          src="/assets/images/runner.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="/assets/images/runner-poster.jpg"
+        ></video>
+        <div class="intro-hero-gradient"></div>
+      </div>
+      <div class="intro-hero-content">
+        <p class="intro-hero-kicker lang lang-ro">EXPERTIZĂ BAZATĂ PE ȘTIINȚĂ</p>
+        <p class="intro-hero-kicker lang lang-en">SCIENCE-BACKED COACHING</p>
+        <h1 class="hero-title">RUN WITH PURPOSE</h1>
+        <p class="intro-hero-subheadline lang lang-ro">
+          Antrenamente fără ghicit. Doar performanță.
+        </p>
+        <p class="intro-hero-subheadline lang lang-en">
+          No guesswork. Just performance.
+        </p>
+        <div class="intro-hero-card">
+          <div class="intro-hero-card-media">
+            <img
+              src="/assets/images/coach-portrait.jpg"
+              alt="Coach portrait"
+              onerror="this.src=''; this.classList.add('image-placeholder');"
+            />
+          </div>
+          <div class="intro-hero-card-text">
+            <p class="lang lang-ro">
+              Descoperă ce înseamnă antrenamente cu adevărat personalizate: clare,
+              eficiente și sustenabile. Împreună, transformăm alergarea într-un
+              stil de viață.
+            </p>
+            <p class="lang lang-en">
+              Discover what truly personalized training looks like: clear,
+              efficient, and sustainable. Together, we turn running into a
+              lifestyle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <div class="lang lang-ro">
+              <p class="eyebrow">Antrenor de alergare & fitness</p>
+              <h1>Smarter Training. Stronger Running.</h1>
+              <p class="lead">
+                Antrenamente pentru alergare și fitness construite inteligent,
+                pentru progres real, fără accidentări și fără promisiuni goale.
+                Indiferent dacă ești la început, te pregătești pentru competiții
+                sau vrei pur și simplu să devii mai puternic și mai sănătos.
+              </p>
+              <div class="cta-group">
+                <a class="btn primary" href="#contact">Hai să vedem ce ți se potrivește</a>
+                <a class="btn ghost" href="#how">Cum lucrăm</a>
+              </div>
+            </div>
+            <div class="lang lang-en">
+              <p class="eyebrow">Running & fitness coach</p>
+              <h1>Coached. Not Pushed.</h1>
+              <p class="lead">
+                Smart running and strength training,
+                built for real progress – not burnout or injuries.
+                From beginners to competitive runners,
+                or anyone looking to build strength and long-term health.
+              </p>
+              <div class="cta-group">
+                <a class="btn primary" href="#contact">Let’s find what works for you</a>
+                <a class="btn ghost" href="#how">How it works</a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <img
+              src="/assets/images/coach-hero.jpg"
+              alt="Coach guiding a runner"
+              onerror="this.src=''; this.classList.add('image-placeholder');"
+            />
+            <div class="hero-card-content">
+              <div class="lang lang-ro">
+                <p class="card-title">Progres măsurabil, fără presiune inutilă</p>
+                <p class="card-text">
+                  Programare inteligentă, feedback constant și un plan realist adaptat
+                  stilului tău de viață.
+                </p>
+              </div>
+              <div class="lang lang-en">
+                <p class="card-title">Measured progress without unnecessary pressure</p>
+                <p class="card-text">
+                  Smart programming, consistent feedback, and a realistic plan built
+                  around your lifestyle.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Who this is for -->
+      <section class="section" id="who">
+        <div class="container">
+          <div class="section-header">
+            <div class="lang lang-ro">
+              <h2>Pentru cine este</h2>
+              <p>Un spațiu sigur pentru evoluție, indiferent de nivel.</p>
+            </div>
+            <div class="lang lang-en">
+              <h2>Who this is for</h2>
+              <p>A supportive space to improve, whatever your level.</p>
+            </div>
+          </div>
+          <div class="grid cards">
+            <article class="info-card">
+              <div class="lang lang-ro">
+                <h3>Începători</h3>
+                <p>Ai nevoie de claritate, ritm progresiv și structură care să te țină sănătos.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Beginners</h3>
+                <p>Start with clarity, a progressive rhythm, and a plan that keeps you healthy.</p>
+              </div>
+            </article>
+            <article class="info-card">
+              <div class="lang lang-ro">
+                <h3>Alergători blocați</h3>
+                <p>Ai ajuns la un platou și ai nevoie de direcție și ajustări inteligente.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Runners who feel stuck</h3>
+                <p>You’ve plateaued and need smart tweaks and a clear direction.</p>
+              </div>
+            </article>
+            <article class="info-card">
+              <div class="lang lang-ro">
+                <h3>Alergători competitivi</h3>
+                <p>Vrei performanță fără suprasolicitare, cu un plan pe termen lung.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Competitive runners</h3>
+                <p>You want performance without burnout, with a long-term plan.</p>
+              </div>
+            </article>
+            <article class="info-card">
+              <div class="lang lang-ro">
+                <h3>Fitness & sănătate</h3>
+                <p>Vrei forță, energie și un corp rezistent, nu doar kilometri.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Fitness & health focused</h3>
+                <p>You want strength, energy, and resilience, not just kilometers.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="section section-alt" id="how">
+        <div class="container">
+          <div class="section-header">
+            <div class="lang lang-ro">
+              <h2>Built to run. Trained to last.</h2>
+              <p>Proces clar, fără artificii, pentru rezultate durabile.</p>
+            </div>
+            <div class="lang lang-en">
+              <h2>Built to run. Trained to last.</h2>
+              <p>A clear process without hype, designed for lasting results.</p>
+            </div>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <span>01</span>
+              <div class="lang lang-ro">
+                <h3>Evaluare</h3>
+                <p>Analizăm obiectivele, istoricul, stilul de viață și nivelul actual.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Assessment</h3>
+                <p>We review your goals, history, lifestyle, and current level.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span>02</span>
+              <div class="lang lang-ro">
+                <h3>Plan personalizat</h3>
+                <p>Primești un plan realist, adaptat timpului și priorităților tale.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Personalized plan</h3>
+                <p>You receive a realistic plan tailored to your time and priorities.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span>03</span>
+              <div class="lang lang-ro">
+                <h3>Feedback constant</h3>
+                <p>Ajustăm împreună ce nu funcționează și consolidăm progresul.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Ongoing feedback</h3>
+                <p>We adjust what doesn’t work and reinforce what does.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span>04</span>
+              <div class="lang lang-ro">
+                <h3>Progres sustenabil</h3>
+                <p>Prioritizăm continuitatea și sănătatea pentru rezultate pe termen lung.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Sustainable progress</h3>
+                <p>Continuity and health stay first so results last long term.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Training options -->
+      <section class="section" id="programs">
+        <div class="container">
+          <div class="section-header">
+            <div class="lang lang-ro">
+              <h2>Opțiuni de antrenament</h2>
+              <p>Alege formatul care se potrivește obiectivului tău.</p>
+            </div>
+            <div class="lang lang-en">
+              <h2>Training options</h2>
+              <p>Select the format that matches your goals.</p>
+            </div>
+          </div>
+          <div class="grid cards">
+            <article class="program-card">
+              <div class="lang lang-ro">
+                <h3>Alergare pentru începători</h3>
+                <p>Începi în siguranță cu structură, tehnică și volum progresiv.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Beginner running</h3>
+                <p>Start safely with structure, technique, and gradual volume.</p>
+              </div>
+            </article>
+            <article class="program-card">
+              <div class="lang lang-ro">
+                <h3>Alergare intermediară</h3>
+                <p>Dezvoltă rezistența și viteza cu un program echilibrat.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Intermediate running</h3>
+                <p>Build endurance and speed with a balanced weekly schedule.</p>
+              </div>
+            </article>
+            <article class="program-card">
+              <div class="lang lang-ro">
+                <h3>Pregătire competițională</h3>
+                <p>Antrenament periodizat pentru vârf de formă și recuperare.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Competitive / race preparation</h3>
+                <p>Periodized training for peak performance and recovery.</p>
+              </div>
+            </article>
+            <article class="program-card">
+              <div class="lang lang-ro">
+                <h3>Forță & condiționare</h3>
+                <p>Forță care susține alergarea și rezistența pe termen lung.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Strength & conditioning</h3>
+                <p>Strength work that supports running and long-term resilience.</p>
+              </div>
+            </article>
+            <article class="program-card">
+              <div class="lang lang-ro">
+                <h3>Consultanță de obiectiv</h3>
+                <p>O sesiune clară pentru direcție și pașii următori.</p>
+              </div>
+              <div class="lang lang-en">
+                <h3>Objective consultation</h3>
+                <p>One-off session for clear direction and actionable next steps.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About the coach -->
+      <section class="section section-alt about-v2" id="about">
+        <div class="container">
+          <div class="about-v2-grid">
+            <div class="about-v2-media">
+              <img
+                src="/assets/images/coach-portrait.jpg"
+                alt="Coach portrait"
+                onerror="this.src=''; this.classList.add('image-placeholder');"
+              />
+              <ul class="about-bullets lang lang-ro">
+                <li>Plan personalizat, nu „copy-paste”</li>
+                <li>Progres inteligent (80/20), fără junk miles</li>
+                <li>Forță + mobilitate pentru prevenția accidentărilor</li>
+                <li>Feedback constant, ajustări săptămânale</li>
+              </ul>
+              <ul class="about-bullets lang lang-en">
+                <li>Personalized training (no templates)</li>
+                <li>Smart progress (80/20), less junk mileage</li>
+                <li>Strength + mobility to reduce injury risk</li>
+                <li>Weekly feedback and adjustments</li>
+              </ul>
+            </div>
+            <div class="about-v2-content">
+              <div class="lang lang-ro">
+                <h2>Despre antrenor</h2>
+                <p>
+                  Sunt Vali, antrenor de alergare și fitness. Construiesc programe
+                  clare și realiste, adaptate nivelului tău, programului tău și
+                  istoricului tău (inclusiv accidentări).
+                </p>
+                <p>
+                  Fără ‘no pain, no gain’. Punem pe primul loc sănătatea,
+                  consistența și progresul pe termen lung — iar performanța vine ca
+                  rezultat.
+                </p>
+              </div>
+              <div class="lang lang-en">
+                <h2>About the coach</h2>
+                <p>
+                  I’m Vali — a running & fitness coach. I build clear, realistic
+                  training plans around your level, schedule, and history
+                  (including injuries).
+                </p>
+                <p>
+                  No ‘no pain, no gain’. We prioritize health, consistency, and
+                  long-term progress — performance comes as a result.
+                </p>
+              </div>
+              <div class="about-cards">
+                <article class="stat-card">
+                  <div class="lang lang-ro">
+                    <h3>Rezultate (PB / highlights)</h3>
+                  </div>
+                  <div class="lang lang-en">
+                    <h3>Results (PB highlights)</h3>
+                  </div>
+                  <div class="stat-grid">
+                    <div class="stat-item">
+                      <span>Marathon</span>
+                      <strong>2:56:58</strong>
+                    </div>
+                    <div class="stat-item">
+                      <span>50K</span>
+                      <strong>4:27:30</strong>
+                    </div>
+                  </div>
+                </article>
+                <article class="stat-card">
+                  <div class="lang lang-ro">
+                    <h3>Statistici (overview)</h3>
+                  </div>
+                  <div class="lang lang-en">
+                    <h3>Stats (overview)</h3>
+                  </div>
+                  <div class="stat-grid">
+                    <div class="stat-item">
+                      <span>Runs</span>
+                      <strong>1,203</strong>
+                    </div>
+                    <div class="stat-item">
+                      <span>Distance</span>
+                      <strong>16,837 km</strong>
+                    </div>
+                    <div class="stat-item">
+                      <span>Avg runs/week (2026)</span>
+                      <strong>5</strong>
+                    </div>
+                    <div class="stat-item">
+                      <span>Avg distance/week (2026)</span>
+                      <strong>60 km</strong>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="lang lang-ro">
+                <a class="btn ghost" href="#">Vezi statisticile complete</a>
+              </div>
+              <div class="lang lang-en">
+                <a class="btn ghost" href="#">See full stats</a>
+              </div>
+            </div>
+          </div>
+          <div class="about-gallery">
+            <img
+              src="/assets/images/about/race-1.jpg"
+              alt="Race moment"
+              onerror="this.src=''; this.classList.add('image-placeholder');"
+            />
+            <img
+              src="/assets/images/about/race-2.jpg"
+              alt="Race pace"
+              onerror="this.src=''; this.classList.add('image-placeholder');"
+            />
+            <img
+              src="/assets/images/about/training-1.jpg"
+              alt="Training session"
+              onerror="this.src=''; this.classList.add('image-placeholder');"
+            />
+            <img
+              src="/assets/images/about/training-2.jpg"
+              alt="Track training"
+              onerror="this.src=''; this.classList.add('image-placeholder');"
+            />
+            <img
+              src="/assets/images/about/garmin-1.jpg"
+              alt="Garmin summary"
+              onerror="this.src=''; this.classList.add('image-placeholder');"
+            />
+            <img
+              src="/assets/images/about/garmin-2.jpg"
+              alt="Training metrics"
+              onerror="this.src=''; this.classList.add('image-placeholder');"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <div class="lang lang-ro">
+              <h2>Contact</h2>
+              <p>Scrie-mi și hai să construim un plan potrivit pentru tine.</p>
+            </div>
+            <div class="lang lang-en">
+              <h2>Contact</h2>
+              <p>Reach out and let’s build the right plan for you.</p>
+            </div>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-details">
+              <div class="lang lang-ro">
+                <h3>Date de contact</h3>
+                <p>Email: <a href="mailto:coach@runningcoach.com">coach@runningcoach.com</a></p>
+                <p>WhatsApp: <a href="https://wa.me/40123456789">+40 123 456 789</a></p>
+                <div class="socials">
+                  <a href="#">Instagram</a>
+                  <a href="#">LinkedIn</a>
+                  <a href="#">Strava</a>
+                </div>
+              </div>
+              <div class="lang lang-en">
+                <h3>Contact details</h3>
+                <p>Email: <a href="mailto:coach@runningcoach.com">coach@runningcoach.com</a></p>
+                <p>WhatsApp: <a href="https://wa.me/40123456789">+40 123 456 789</a></p>
+                <div class="socials">
+                  <a href="#">Instagram</a>
+                  <a href="#">LinkedIn</a>
+                  <a href="#">Strava</a>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <div class="form-row">
+                <label>
+                  <span class="lang lang-ro">Nume</span>
+                  <span class="lang lang-en">Name</span>
+                  <input type="text" name="name" placeholder="Alex Popescu" required />
+                </label>
+                <label>
+                  <span class="lang lang-ro">Email</span>
+                  <span class="lang lang-en">Email</span>
+                  <input type="email" name="email" placeholder="alex@email.com" required />
+                </label>
+              </div>
+              <div class="form-row">
+                <label>
+                  <span class="lang lang-ro">Telefon</span>
+                  <span class="lang lang-en">Phone</span>
+                  <input type="tel" name="phone" placeholder="+40 700 000 000" />
+                </label>
+                <label>
+                  <span class="lang lang-ro">Interes</span>
+                  <span class="lang lang-en">Training interest</span>
+                  <select name="interest" class="lang lang-ro" required>
+                    <option value="">Selectează</option>
+                    <option>Alergare pentru începători</option>
+                    <option>Alergare intermediară</option>
+                    <option>Pregătire competițională</option>
+                    <option>Forță & condiționare</option>
+                    <option>Consultanță de obiectiv</option>
+                  </select>
+                  <select name="interest" class="lang lang-en" required>
+                    <option value="">Select</option>
+                    <option>Beginner running</option>
+                    <option>Intermediate running</option>
+                    <option>Competitive / race preparation</option>
+                    <option>Strength & conditioning</option>
+                    <option>Objective consultation</option>
+                  </select>
+                </label>
+              </div>
+              <label>
+                <span class="lang lang-ro">Obiective / mesaj</span>
+                <span class="lang lang-en">Goals / message</span>
+                <textarea
+                  name="message"
+                  rows="4"
+                  class="lang lang-ro"
+                  placeholder="Spune-mi ce îți dorești."
+                ></textarea>
+                <textarea
+                  name="message"
+                  rows="4"
+                  class="lang lang-en"
+                  placeholder="Tell me what you’re aiming for."
+                ></textarea>
+              </label>
+              <fieldset>
+                <legend>
+                  <span class="lang lang-ro">Metodă preferată de contact</span>
+                  <span class="lang lang-en">Preferred contact method</span>
+                </legend>
+                <label class="radio">
+                  <input type="radio" name="contact-method" value="email" checked />
+                  <span class="lang lang-ro">Email</span>
+                  <span class="lang lang-en">Email</span>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="contact-method" value="whatsapp" />
+                  <span class="lang lang-ro">WhatsApp</span>
+                  <span class="lang lang-en">WhatsApp</span>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="contact-method" value="phone" />
+                  <span class="lang lang-ro">Telefon</span>
+                  <span class="lang lang-en">Phone</span>
+                </label>
+              </fieldset>
+              <button class="btn primary" type="submit">
+                <span class="lang lang-ro">Trimite mesajul</span>
+                <span class="lang lang-en">Send message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2025 Running Coach</p>
+        <div class="footer-links">
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Strava</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
