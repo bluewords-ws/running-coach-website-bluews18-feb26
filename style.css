@@ -126,7 +126,7 @@ img {
 }
 
 .intro-hero-kicker {
-  color: var(--muted);
+  color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 0.75rem;
